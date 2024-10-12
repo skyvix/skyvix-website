@@ -1,0 +1,93 @@
+/* Import the custom Lemon Milk font */
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('fonts/LemonMilk-Regular.otf') format('opentype');
+}
+
+/* Global styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #5A00FF, #FDE5D0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* Logo Styling */
+.logo-top {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-top img {
+    width: 80px; /* Adjust the size to make it smaller */
+}
+
+/* Coming Soon Text Styling */
+h1 {
+    font-family: 'Lemon Milk', sans-serif;  /* Lemon Milk font for "Coming Soon" */
+    font-size: 72px;  /* Larger size for text */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;  /* Slightly larger for other text */
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/* Email form styling */
+.email-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email-form input[type="email"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.email-form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-links img {
+    width: 30px;
+}
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Space between the form and the social links */
+}
+
+.social-links a {
+    margin: 0 10px; /* Space between the icons */
+}
+
+.social-links img {
+    width: 24px; /* Set a consistent size for icons */
+    height: auto;
+}
